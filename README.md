@@ -27,6 +27,12 @@ cd src/gui
 ```
 And then run MainGUI.java
 
+OR you can run the file use class with this command:
+```bash
+java --module-path "D:/Java/openjfx-21.0.6_windows-x64_bin-sdk/javafx-sdk-21.0.6/lib" --add-modules javafx.controls,javafx.fxml -cp "out/production/tucil1" gui.MainGUI
+```
+Adjust yout openjavafx path into this command, make sure you in root dir.
+
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first
