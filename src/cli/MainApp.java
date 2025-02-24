@@ -1,16 +1,13 @@
 package cli;
 
 import java.util.*;
-
-import java.io.*;
-import static util.UserInput.*;
 import pkg.Block;
 import pkg.Board;
 import solver.BruteForce;
+import static util.Const.*;
 import util.FileParser;
 import util.SaveData;
-
-import static util.Const.*;
+import static util.UserInput.*;
 
 public class MainApp {
 	public static void main(String[] args) {
@@ -41,7 +38,7 @@ public class MainApp {
 						// Save data
 						System.out.println("Apakah mau di saved? (1 (yes) / 0 (no)");
 						System.out.print("-> ");
-						int choice2 = getChoice(1,2);
+						int choice2 = getChoice(0,1);
 
 						switch (choice2) {
 							case 1:
