@@ -25,7 +25,7 @@ But if you use IntellliJ, you can follow this:
 ```python
 cd src/gui
 ```
-And then run MainGUI.App
+And then run MainGUI.java
 
 ## Contributing
 
